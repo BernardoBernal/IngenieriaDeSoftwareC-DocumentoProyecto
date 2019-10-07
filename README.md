@@ -11,7 +11,7 @@
 
 ## Módulos del proyecto
 
-# | Módulos
+Número | Módulos
 -----|--------
 1. | Busca Pacientes
 2. | Consulta
