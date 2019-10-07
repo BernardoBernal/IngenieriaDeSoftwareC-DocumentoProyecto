@@ -12,7 +12,7 @@
 ## Módulos del proyecto
 
 # | Módulos
-:----: |:-------:
+-----|--------
 1. | Busca Pacientes
 2. | Consulta
 3. | Login 
