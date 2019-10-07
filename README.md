@@ -13,22 +13,22 @@
 
 Número | Módulos
 -----|--------
-1. | Busca Pacientes
-2. | Consulta
-3. | Login 
-4. | Menú
-5. | PantallaCitas
-6. | PantallaInicio
-7. | PrimerControlDeUsuario
-8. | Receta Medicamentos
-9. | Registro Compra
-10. | RegistroDoctores
-11. | RegistroDueño
-12. | RegistroPaciente
-13. | RegistroProveedor
-14. | RegistroVenta
-15. | VentanaCompra
-16. | VentanaVenta
+1 | Busca Pacientes
+2 | Consulta
+3 | Login 
+4 | Menú
+5 | PantallaCitas
+6 | PantallaInicio
+7 | PrimerControlDeUsuario
+8 | Receta Medicamentos
+9 | Registro Compra
+10 | RegistroDoctores
+11 | RegistroDueño
+12 | RegistroPaciente
+13 | RegistroProveedor
+14 | RegistroVenta
+15 | VentanaCompra
+16 | VentanaVenta
 
 ## Tabla 1 Descripción de Módulos
 
