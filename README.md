@@ -1,7 +1,10 @@
 # Proyecto Ingeniería de Software C
 
 ## Introducción
-
+> VetZoo es un sistema de información enfocado a pequeñas veterinarias que buscan optimizar sus procesos administrativos. 
+> 
+> Es natural que dentro del desarrollo de software se busque la calidad total, por lo que es necesaria de implementación de un modelo de calidad que ayude a obtenerla. 
+> 
 
 ## Objetivos
 
