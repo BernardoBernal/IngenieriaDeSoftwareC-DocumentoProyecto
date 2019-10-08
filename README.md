@@ -117,6 +117,34 @@ button2_Click | Actualización en la base de datos
 button1_Click| Evento que elimina un elemento de la tabla
 btLimpiar_Click | Evento que limpia los cuadros de texto en pantalla
 
+### **Modulo RecetaMedicamentos**
+
+Función | Descripción
+--------|------------
+llenacombobox | Enlista los Doctores disponibles en la base de datos
+llenacombobox2 | Enlista los Pacientes disponibles en la base de datos
+openConnection | Se genera la conexion con la base de datos
+closeConnection | Se finaliza la conexion con la base de datos 
+executeMyQuery| Se realiza la validación de la consulta de la base de datos
+button1_Click | Se captura el evento para crear recetas
+
+
+### **Modulo RegistroCompra**
+
+Función | Descripción
+--------|------------
+dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
+llenacombobox | Enlista los Doctores disponibles en la base de datos
+RegistroCompra_Load | Evento que carga la información de la ventana
+openConnection | Se genera la conexion con la base de datos
+closeConnection | Se finaliza la conexion con la base de datos 
+executeMyQuery| Se realiza la validación de la consulta de la base de datos
+MuestraTabla | Se muestra la tabla con los datos referentes a las compras
+btRegistro_Click | Se genera un registro de Compra
+btActualiza_Click | Se actualiza los datos del registro de compra
+btEliminar_Click | Evento que elimina un registro de la tabla Compra
+btLimpiar_Click | Evento que limpia la ventana 
+
 
 ## Tabla 2 Validación de Módulos
 Módulo | Funciones | Validaciones
