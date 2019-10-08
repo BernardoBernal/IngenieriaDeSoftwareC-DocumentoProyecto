@@ -1,20 +1,20 @@
-# Proyecto Ingeniería de Software C
+# **Proyecto Ingeniería de Software C**
 
-## Introducción
+## **Introducción**
 > VetZoo es un sistema de información enfocado a pequeñas veterinarias que buscan optimizar sus procesos administrativos. 
 > 
 > Es natural que dentro del desarrollo de software se busque la calidad total, por lo que es necesaria de implementación de un modelo de calidad que ayude a obtenerla. 
 > 
 
-## Objetivos
+## **Objetivos**
 
-### Objetivo General
+### **Objetivo General**
 
 > Herramienta digital que permite automatizar y administrar el proceso que tienen las veterinarias facilitando al usuario su actividad laboral.
 
-### Objetivos Específicos
+### **Objetivos Específicos**
 
-## Módulos del proyecto
+## **Módulos del proyecto**
 
 Número | Módulos
 -----|--------
@@ -35,7 +35,7 @@ Número | Módulos
 15 | VentanaCompra
 16 | VentanaVenta
 
-## Descripción de Módulos
+## **Descripción de Módulos**
 ### **Modulo BuscaPaciente**
 
 Función | Descripción
@@ -56,7 +56,7 @@ btRegistro_Click | Se crea una consulta guardandola en la base de datos
 btLimpiar_Click | Limpia la pantalla 
 
 
-### **Modulo login**
+### **Modulo Login**
 Función | Descripción
 --------|------------
 button1_Click | Evento que permite iniciar sesión del usuario dentro del sistema
@@ -78,15 +78,15 @@ btCitas_Click | Se muestra la pantalla para generar citas
 btConsulta_Click | Evento que muestra la pantalla con todo lo referente a una consulta
 btVentas_Click | Evento que muestra la pantalla con todo lo referente a una Venta
 btCompra_Click | Evento que muestra la pantalla con todo lo referente a una Compra
-bloquear | Evento que interactua con los botones para activarlos o desactivarlos
+bloquear | Evento que interactuá con los botones para activarlos o desactivarlos
 
 
 ### **Modulo PantallaCitas**
 Función | Descripción
 --------|------------
 dataGridView1_MouseClick | Evento que muestra en el cuadro de texto la celda seleccionada de la tabla 
-llenacombobox | Evento que llena un combobox segun la tabla de Pacientes
-llenacombobox2 | Evento que llena un combobox segun la tabla de Doctores
+llenacombobox | Evento que llena un combobox según la tabla de Pacientes
+llenacombobox2 | Evento que llena un combobox según la tabla de Doctores
 PantallaCitas_Load | Evento que carga la información al entrar a la ventana
 openConnection | Se genera la conexión con la base de datos
 closeConnection | Se finaliza la conexión con la base de datos
