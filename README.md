@@ -1,7 +1,10 @@
 # Proyecto Ingeniería de Software C
 
 ## Introducción
-
+> VetZoo es un sistema de información enfocado a pequeñas veterinarias que buscan optimizar sus procesos administrativos. 
+> 
+> Es natural que dentro del desarrollo de software se busque la calidad total, por lo que es necesaria de implementación de un modelo de calidad que ayude a obtenerla. 
+> 
 
 ## Objetivos
 
@@ -13,24 +16,24 @@
 
 ## Módulos del proyecto
 
-# | Módulos
-:----: |:-------:
-1. | Busca Pacientes
-2. | Consulta
-3. | Login 
-4. | Menú
-5. | PantallaCitas
-6. | PantallaInicio
-7. | PrimerControlDeUsuario
-8. | Receta Medicamentos
-9. | Registro Compra
-10. | RegistroDoctores
-11. | RegistroDueño
-12. | RegistroPaciente
-13. | RegistroProveedor
-14. | RegistroVenta
-15. | VentanaCompra
-16. | VentanaVenta
+Número | Módulos
+-----|--------
+1 | Busca Pacientes
+2 | Consulta
+3 | Login 
+4 | Menú
+5 | PantallaCitas
+6 | PantallaInicio
+7 | PrimerControlDeUsuario
+8 | Receta Medicamentos
+9 | Registro Compra
+10 | RegistroDoctores
+11 | RegistroDueño
+12 | RegistroPaciente
+13 | RegistroProveedor
+14 | RegistroVenta
+15 | VentanaCompra
+16 | VentanaVenta
 
 ## Descripción de Módulos
 ### **Modulo BuscaPaciente**
