@@ -146,6 +146,102 @@ btEliminar_Click | Evento que elimina un registro de la tabla Compra
 btLimpiar_Click | Evento que limpia la ventana 
 
 
+### **Modulo RegistroDoctores**
+
+Función | Descripción
+--------|------------
+dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
+RegistroDoctores_Load | Evento que carga la información al entrar a la ventana
+openConnection | Se establece la conexión con la base de datos
+closeConnection | Se finaliza la conexion con la base de datos 
+executeMyQuery| Se realiza la validación de la consulta de la base de datos
+MuestraTabla | Se muestra la tabla con los datos
+btRegistro_Click | Se inserta un registro en la tabla doctor
+btActualiza_Click | Se actualiza el registro de la tabla doctor
+btEliminar_Click | Se elimina el registro de la tabla doctor
+btLimpiar_Click | Evento que limpia todos los cuadros de texto de la ventana
+
+### **Modulo RegistroDueño**
+
+Función | Descripción
+--------|------------
+dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
+RegistroDueño_Load | Evento que carga la información al entrar a la ventana
+openConnection | Se establece la conexión con la base de datos
+closeConnection | Se finaliza la conexion con la base de datos 
+executeMyQuery| Se realiza la validación de la consulta de la base de datos
+MuestraTabla | Se muestra la tabla con los datos
+btRegistro_Click | Se inserta un registro en la tabla dueño
+btActualiza_Click | Se actualiza el registro de la tabla dueño
+btEliminar_Click | Se elimina el registro de la tabla dueño
+btLimpiar_Click | Evento que limpia todos los cuadros de texto de la ventana
+
+### **Modulo RegistroPaciente**
+
+Función | Descripción
+--------|------------
+dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
+RegistroPaciente_Load | Evento que carga la información al entrar a la ventana
+openConnection | Se establece la conexión con la base de datos
+closeConnection | Se finaliza la conexion con la base de datos 
+executeMyQuery| Se realiza la validación de la consulta de la base de datos
+MuestraTabla | Se muestra la tabla con los datos
+btRegistro_Click | Se inserta un registro en la tabla paciente
+btActualiza_Click | Se actualiza el registro de la tabla paciente
+btEliminar_Click | Se elimina el registro de la tabla paciente
+btLimpiar_Click | Evento que limpia todos los cuadros de texto de la ventana
+### **Modulo RegistroProovedor**
+
+Función | Descripción
+--------|------------
+dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
+RegistroProveedor_Load | Evento que carga la información al entrar a la ventana
+openConnection | Se establece la conexión con la base de datos
+closeConnection | Se finaliza la conexion con la base de datos 
+executeMyQuery| Se realiza la validación de la consulta de la base de datos
+MuestraTabla | Se muestra la tabla con los datos
+btRegistro_Click | Se inserta un registro en la tabla proovedor
+btActualiza_Click | Se actualiza el registro de la tabla proovedor
+btEliminar_Click | Se elimina el registro de la tabla paciente
+btLimpiar_Click | Evento que limpia todos los cuadros de texto de la ventana
+
+### **Modulo RegistroVenta**
+
+Función | Descripción
+--------|------------
+dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
+RegistroVenta_Load | Evento que carga la información al entrar a la ventana
+openConnection | Se establece la conexión con la base de datos
+closeConnection | Se finaliza la conexion con la base de datos 
+executeMyQuery| Se realiza la validación de la consulta de la base de datos
+MuestraTabla | Se muestra la tabla con los datos
+btRegistro_Click | Se inserta un registro en la tabla venta
+btActualiza_Click | Se actualiza el registro de la tabla venta
+btEliminar_Click | Se elimina el registro de la tabla venta
+btLimpiar_Click | Evento que limpia todos los cuadros de texto de la ventana
+
+### **Modulo VentanaCompra**
+
+Función | Descripción
+--------|------------
+button2_Click | Evento que muestra la ventana de proveedores
+button3_Click | Evento que muestra la ventana de registro de compra
+button1_Click | Evento que realiza una consulta en la tabla compra
+VentanaCompra_Load | Carga de información de la ventana
+button4_Click | Evento que limpia los cuadros de texto de la pantalla
+### **Modulo VentanaVentas**
+
+Función | Descripción
+--------|------------
+button2_Click | Evento que muestra la ventana de proveedores
+button3_Click | Evento que muestra la ventana de registro de venta
+button1_Click | Evento que realiza una consulta en la tabla venta
+VentanaVentas_Load | Carga de información de la ventana
+button4_Click | Evento que limpia los cuadros de texto de la pantalla
+
+
+
+
 ## Tabla 2 Validación de Módulos
 Módulo | Funciones | Validaciones
 -------|-----------|-------------
