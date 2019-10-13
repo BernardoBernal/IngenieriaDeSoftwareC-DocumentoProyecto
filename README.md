@@ -231,20 +231,145 @@ VentanaCompra_Load | Carga de información de la ventana
 button4_Click | Evento que limpia los cuadros de texto de la pantalla
 ### **Modulo VentanaVentas**
 
-Función | Descripción
---------|------------
-button2_Click | Evento que muestra la ventana de proveedores
+Función | Descripción 
+--------|-------------
+button2_Click | Evento que muestra la ventana de proveedores|dd
 button3_Click | Evento que muestra la ventana de registro de venta
 button1_Click | Evento que realiza una consulta en la tabla venta
 VentanaVentas_Load | Carga de información de la ventana
 button4_Click | Evento que limpia los cuadros de texto de la pantalla
 
-
-
-
 ## Tabla 2 Validación de Módulos
-Módulo | Funciones | Validaciones
--------|-----------|-------------
+
+### **Modulo BuscaPacientes**
+Funciones | Validaciones
+----------|-------------
+button1_Click | No valida si el cuadro de texto esta vacio
+
+### **Modulo Consulta**
+Funciones | Validaciones
+----------|-------------
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+
+### **Modulo Login**
+Funciones | Validaciones
+----------|-------------
+button1_Click | Si se valida que el usuario conincida con la contraseñá
+txtUsuario_Click | Validación de campos
+txtContraseña_Click | Validación de campos
+
+
+### **Modulo Menu**
+Funciones | Validaciones
+----------|-------------
+Menu | No se valida si las cadenas estan vacias
+bloquear | Validación dependiendo del usuario, cambia la interfaz
+
+### **Modulo PantallaCitas**
+Funciones | Validaciones
+----------|-------------
+dataGridView1_MouseClick | No valida si la tabla no contiene la información para pasar a los cuadros de texto
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacio
+btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+
+### **Modulo PantallaInicio**
+Funciones | Validaciones
+----------|-------------
+PantallaDeRegistros_Load | N/A
+btUsuarios_Click | N/A
+
+### **Modulo RecetaMedicamentos**
+Funciones | Validaciones
+----------|-------------
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+button1_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+
+### **Modulo RegistroCompra**
+Funciones | Validaciones
+----------|-------------
+dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento de la tabla está vacío o no para que se cargue en el cuadro de texto
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacio
+btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+
+### **Modulo RegistroDoctores**
+Funciones | Validaciones
+----------|-------------
+dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento de la tabla está vacío o no para que se cargue en el cuadro de texto
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacio
+btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+
+### **Modulo RegistroDueño**
+Funciones | Validaciones
+----------|-------------
+dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento de la tabla está vacío o no para que se cargue en el cuadro de texto
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacio
+btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+
+### **Modulo RegistroPaciente**
+Funciones | Validaciones
+----------|-------------
+dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento de la tabla está vacío o no para que se cargue en el cuadro de texto
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacio
+btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+
+### **Modulo RegistroProveedor**
+Funciones | Validaciones
+----------|-------------
+dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento de la tabla está vacío o no para que se cargue en el cuadro de texto
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacio
+btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+
+### **Modulo RegistroVenta**
+Funciones | Validaciones
+----------|-------------
+dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento de la tabla está vacío o no para que se cargue en el cuadro de texto
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacio
+btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+
+### **Modulo VentanaCompra**
+Funciones | Validaciones
+----------|-------------
+button1_Click | Si el cuadro de texto está vacío no se aplica una validación
+
+### **Modulo VentanaVentas**
+Funciones | Validaciones
+----------|-------------
+button1_Click | Si el cuadro de texto está vacío no se aplica una validación
+
+
 
 ## Tabla 3 Funcionalidad 
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
