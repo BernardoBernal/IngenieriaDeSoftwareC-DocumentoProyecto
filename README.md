@@ -285,6 +285,18 @@ Funciones | Validaciones
 PantallaDeRegistros_Load | N/A
 btUsuarios_Click | N/A
 
+### **Modulo PrimerControlDeUsuario**
+Funciones | Validaciones
+----------|-------------
+dataGridView1_MouseClick | No se valida, pero puede hacerse la validación si el campo está vacío
+openConnection | Si esta cerrado, si se puede abrir la conexión
+closeConnection | Si esta abierto, si se puede cerrar la conexión
+executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
+btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacio
+btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+
+
 ### **Modulo RecetaMedicamentos**
 Funciones | Validaciones
 ----------|-------------
