@@ -383,6 +383,21 @@ button1_Click | Si el cuadro de texto está vacío no se aplica una validación
 
 
 
+> **Norma ISO 9126** <br>
+Es un estándar internacional para la evaluación de la calidad del Software. <br>
+El estándar está dividido en cuatro partes las cuales dirigen realidad, métricas externas, métricas internas y calidad en las métricas de uso. <br>
+El modelo de calidad establece en la primera parte del estándar, <i>ISO 9126 - 1</i> clasifica la calidad del Software en un conjunto estructurado de características y subcaracterísticas.
+
+## Funcionalidad
+Un conjunto de atributos que se relacionan con la existencia de un conjunto de funciones y sus  propiedades específicas.
+* Adecuación
+    * Atributos del software relacionados con la presencia y aptitud de un conjunto de funciones para tareas especificadas.
+* Exactitud
+    * Atributos de software relacionados con la disposición de resultados o efectos correctos.
+* Interoperabilidad 
+    * Atributos de software que se relacionan con su habilidad para la interacción con sistemas.
+* Seguridad
+    * Atributos de software relacionados con su habilidad para prevenir acceso no autorizado a programas y datos.
 ## Tabla 3 Funcionalidad 
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
