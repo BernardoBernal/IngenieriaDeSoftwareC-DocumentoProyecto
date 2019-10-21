@@ -409,7 +409,7 @@ Un conjunto de atributos que se relacionan con la existencia de un conjunto de f
 ## Tabla 3 Funcionalidad 
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
-
+login |3,7 |6|5|4
 ## Tabla 4 Fiabilidad 
 Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
 ----------|---------|-----------------|--------------------
