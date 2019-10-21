@@ -398,6 +398,14 @@ Un conjunto de atributos que se relacionan con la existencia de un conjunto de f
     * Atributos de software que se relacionan con su habilidad para la interacción con sistemas.
 * Seguridad
     * Atributos de software relacionados con su habilidad para prevenir acceso no autorizado a programas y datos.
+
+### <b> Criterios para la evaluación del sistema</b>
+>3. Autentificación. Identidad de Usuarios <br>   
+>4. Autorización. Autentifica los usuarios y aplicaciones que tienen derechos definidos de acceso a los recursos del sistema.
+>5. Algoritmo implmentado de manera correcta.
+>6. Funciona correctamente.
+>7. Manejo adecuado de la base de datos. 
+
 ## Tabla 3 Funcionalidad 
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
