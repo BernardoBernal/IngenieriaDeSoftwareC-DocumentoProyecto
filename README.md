@@ -1,4 +1,4 @@
-# **Proyecto Ingeniería de Software C**
+# **Proyecto Ingeniería de Software C** 
 
 ## **Introducción**
 > VetZoo es un sistema de información enfocado a pequeñas veterinarias que buscan optimizar sus procesos administrativos. 
@@ -52,7 +52,7 @@ button4_Click | Captura el evento que muestra la ventana para poder crear pacien
 openConnection | Se realiza la conexión con la base de datos
 closeConnection|Se finaliza la conexión con la base de datos
 executeMyQuery | Validación al interactuar con la base de datos
-btRegistro_Click | Se crea una consulta guardandola en la base de datos
+btRegistro_Click | Se crea una consulta guardándola en la base de datos
 btLimpiar_Click | Limpia la pantalla 
 
 
@@ -70,7 +70,7 @@ ocultaBotones | Captura el evento que permite ocultar los botones de la sección
 muestraBotones | Captura el evento que permite mostrar los botones de la sección de registro
 button1_Click | Evento que envía a la pantalla principal
 button2_Click | Evento que acomoda la interfaz según el usuario
-btRU_Click | Evento que muetra la pantalla de registro de Usuarios
+btRU_Click | Evento que muestra la pantalla de registro de Usuarios
 btRD_Click | Evento que muestra la pantalla de registro de Doctores
 btRP_Click | Evento que muestra la pantalla de registro de Pacientes
 btRDueño_Click | Evento que muestra la pantalla de registro de los dueños
@@ -123,8 +123,8 @@ Función | Descripción
 --------|------------
 llenacombobox | Enlista los Doctores disponibles en la base de datos
 llenacombobox2 | Enlista los Pacientes disponibles en la base de datos
-openConnection | Se genera la conexion con la base de datos
-closeConnection | Se finaliza la conexion con la base de datos 
+openConnection | Se genera la conexión con la base de datos
+closeConnection | Se finaliza la conexión con la base de datos 
 executeMyQuery| Se realiza la validación de la consulta de la base de datos
 button1_Click | Se captura el evento para crear recetas
 
@@ -136,8 +136,8 @@ Función | Descripción
 dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
 llenacombobox | Enlista los Doctores disponibles en la base de datos
 RegistroCompra_Load | Evento que carga la información de la ventana
-openConnection | Se genera la conexion con la base de datos
-closeConnection | Se finaliza la conexion con la base de datos 
+openConnection | Se genera la conexión con la base de datos
+closeConnection | Se finaliza la conexión con la base de datos 
 executeMyQuery| Se realiza la validación de la consulta de la base de datos
 MuestraTabla | Se muestra la tabla con los datos referentes a las compras
 btRegistro_Click | Se genera un registro de Compra
@@ -153,7 +153,7 @@ Función | Descripción
 dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
 RegistroDoctores_Load | Evento que carga la información al entrar a la ventana
 openConnection | Se establece la conexión con la base de datos
-closeConnection | Se finaliza la conexion con la base de datos 
+closeConnection | Se finaliza la conexión con la base de datos 
 executeMyQuery| Se realiza la validación de la consulta de la base de datos
 MuestraTabla | Se muestra la tabla con los datos
 btRegistro_Click | Se inserta un registro en la tabla doctor
@@ -168,7 +168,7 @@ Función | Descripción
 dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
 RegistroDueño_Load | Evento que carga la información al entrar a la ventana
 openConnection | Se establece la conexión con la base de datos
-closeConnection | Se finaliza la conexion con la base de datos 
+closeConnection | Se finaliza la conexión con la base de datos 
 executeMyQuery| Se realiza la validación de la consulta de la base de datos
 MuestraTabla | Se muestra la tabla con los datos
 btRegistro_Click | Se inserta un registro en la tabla dueño
@@ -183,7 +183,7 @@ Función | Descripción
 dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
 RegistroPaciente_Load | Evento que carga la información al entrar a la ventana
 openConnection | Se establece la conexión con la base de datos
-closeConnection | Se finaliza la conexion con la base de datos 
+closeConnection | Se finaliza la conexión con la base de datos 
 executeMyQuery| Se realiza la validación de la consulta de la base de datos
 MuestraTabla | Se muestra la tabla con los datos
 btRegistro_Click | Se inserta un registro en la tabla paciente
@@ -197,10 +197,10 @@ Función | Descripción
 dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
 RegistroProveedor_Load | Evento que carga la información al entrar a la ventana
 openConnection | Se establece la conexión con la base de datos
-closeConnection | Se finaliza la conexion con la base de datos 
+closeConnection | Se finaliza la conexión con la base de datos 
 executeMyQuery| Se realiza la validación de la consulta de la base de datos
 MuestraTabla | Se muestra la tabla con los datos
-btRegistro_Click | Se inserta un registro en la tabla proovedor
+btRegistro_Click | Se inserta un registro en la tabla promovedor
 btActualiza_Click | Se actualiza el registro de la tabla proovedor
 btEliminar_Click | Se elimina el registro de la tabla paciente
 btLimpiar_Click | Evento que limpia todos los cuadros de texto de la ventana
@@ -212,7 +212,7 @@ Función | Descripción
 dataGridView1_MouseClick | Evento que muestra en un cuadro de texto la celda seleccionada 
 RegistroVenta_Load | Evento que carga la información al entrar a la ventana
 openConnection | Se establece la conexión con la base de datos
-closeConnection | Se finaliza la conexion con la base de datos 
+closeConnection | Se finaliza la conexión con la base de datos 
 executeMyQuery| Se realiza la validación de la consulta de la base de datos
 MuestraTabla | Se muestra la tabla con los datos
 btRegistro_Click | Se inserta un registro en la tabla venta
@@ -244,7 +244,7 @@ button4_Click | Evento que limpia los cuadros de texto de la pantalla
 ### **Modulo BuscaPacientes**
 Funciones | Validaciones
 ----------|-------------
-button1_Click | No valida si el cuadro de texto esta vacio
+button1_Click | No valida si el cuadro de texto esta vació
 
 ### **Modulo Consulta**
 Funciones | Validaciones
@@ -252,12 +252,12 @@ Funciones | Validaciones
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
 
 ### **Modulo Login**
 Funciones | Validaciones
 ----------|-------------
-button1_Click | Si se valida que el usuario conincida con la contraseñá
+button1_Click | Si se valida que el usuario coincida con la contraseñá
 txtUsuario_Click | Validación de campos
 txtContraseña_Click | Validación de campos
 
@@ -265,7 +265,7 @@ txtContraseña_Click | Validación de campos
 ### **Modulo Menu**
 Funciones | Validaciones
 ----------|-------------
-Menu | No se valida si las cadenas estan vacias
+Menu | No se valida si las cadenas están vaciás
 bloquear | Validación dependiendo del usuario, cambia la interfaz
 
 ### **Modulo PantallaCitas**
@@ -275,9 +275,9 @@ dataGridView1_MouseClick | No valida si la tabla no contiene la información par
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
-btEliminar_Click | No valida si el campo Id está vacio
-btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vació
+btActualiza_Click | No se valida si no se seleccionaron los combo o se llenaron todos los datos antes de realizar un UPDATE
 
 ### **Modulo PantallaInicio**
 Funciones | Validaciones
@@ -292,9 +292,9 @@ dataGridView1_MouseClick | No se valida, pero puede hacerse la validación si el
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
-btEliminar_Click | No valida si el campo Id está vacio
-btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vació
+btActualiza_Click | No se valida si no se seleccionaron los combo o se llenaron todos los datos antes de realizar un UPDATE
 
 
 ### **Modulo RecetaMedicamentos**
@@ -303,7 +303,7 @@ Funciones | Validaciones
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-button1_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
+button1_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
 
 ### **Modulo RegistroCompra**
 Funciones | Validaciones
@@ -312,9 +312,9 @@ dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento 
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
-btEliminar_Click | No valida si el campo Id está vacio
-btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vació
+btActualiza_Click | No se valida si no se seleccionaron los combo o se llenaron todos los datos antes de realizar un UPDATE
 
 ### **Modulo RegistroDoctores**
 Funciones | Validaciones
@@ -323,8 +323,8 @@ dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento 
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
-btEliminar_Click | No valida si el campo Id está vacio
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacío
 btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
 
 ### **Modulo RegistroDueño**
@@ -334,8 +334,8 @@ dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento 
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
-btEliminar_Click | No valida si el campo Id está vacio
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacío
 btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
 
 ### **Modulo RegistroPaciente**
@@ -345,8 +345,8 @@ dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento 
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
-btEliminar_Click | No valida si el campo Id está vacio
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacío
 btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
 
 ### **Modulo RegistroProveedor**
@@ -356,8 +356,8 @@ dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento 
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
-btEliminar_Click | No valida si el campo Id está vacio
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacío
 btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
 
 ### **Modulo RegistroVenta**
@@ -367,8 +367,8 @@ dataGridView1_MouseClick | No se hace validación si al seleccionar un elemento 
 openConnection | Si esta cerrado, si se puede abrir la conexión
 closeConnection | Si esta abierto, si se puede cerrar la conexión
 executeMyQuery | Se valida si se puede hacer o no la conexión con la base de datos
-btRegistro_Click | No valida si los campos a llenar se dejan vacios o no coinciden con el tipo
-btEliminar_Click | No valida si el campo Id está vacio
+btRegistro_Click | No valida si los campos a llenar se dejan vacíos o no coinciden con el tipo
+btEliminar_Click | No valida si el campo Id está vacío
 btActualiza_Click | No se valida si no se seleccionaron los combos o se llenaron todos los datos antes de realizar un UPDATE
 
 ### **Modulo VentanaCompra**
@@ -402,7 +402,7 @@ Un conjunto de atributos que se relacionan con la existencia de un conjunto de f
 ### <b> Criterios para la evaluación del sistema</b>
 >3. Autentificación. Identidad de Usuarios <br>   
 >4. Autorización. Autentifica los usuarios y aplicaciones que tienen derechos definidos de acceso a los recursos del sistema.
->5. Algoritmo implmentado de manera correcta.
+>5. Algoritmo implementado de manera correcta.
 >6. Funciona correctamente.
 >7. Manejo adecuado de la base de datos. 
 
@@ -418,13 +418,35 @@ Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
 Funciones | Aprendizaje | Comprensión | Operatividad
 ----------|-------------|-------------|-------------
 
+## Eficiencia
+Conjunto de atributos relacionados en el nivel de desempeño del software y la cantidad de recursos necesarios.
+
+- **Comportamiento en el tiempo:** Se relaciona con los tiempos de respuesta, procesamiento y el rendimiento en desempeñar su función.
+- **Comportamiento de recursos:** Usar los controladores y tipos de recursos adecuados cuando el software lleva a cabo su función.
+
 ## Tabla 6 Eficiencia
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
 
+## Mantenibilidad
+Atributos relacionados con la facilidad de extender, modificar, corregir errores en un sistema de software.
+
+- **Estabilidad:** Atributos relacionados con el riesgo de efectos inesperados por modificaciones.
+- **Facilidad de análisis:** Atributos relacionados con el esfuerzo necesario para el diagnostico de deficiencias a causa de fallo o identificadores de partes a modificar.
+- **Facilidad de cambio:** Atributos del software relacionados con el esfuerzo necesario para la modificación, corrección de falla o cambio de ambiente.
+- **Facilidad de pruebas:** Atributos del software relacionados con el esfuerzo necesario para validar el software modificado.
+
 ## Tabla 7 Mantenibilidad 
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+
+## Portabilidad
+Atributos relacionados con la capacidad de un sistema de software para ser transferido desde una plataforma a otra.
+
+- **Capacidad de instalación:** Esfuerzo necesario para instalar el software en un ambiente especificado.
+- **Capacidad de reemplazo:** Atributos del software relacionados con la oportunidad y esfuerzo de usar el software en lugar de otro software en un ambiente de dicho software.
+- **Adaptabilidad:** Adaptación a # de ambientes.
+- **Co-existencia:** Coexistir con otro software independiente, en un entorno común compartiendo recursos comúnes.
 
 ## Tabla 8 Portabilidad 
 Funciones | Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-existencia
