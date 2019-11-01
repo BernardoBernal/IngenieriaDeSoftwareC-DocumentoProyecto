@@ -742,191 +742,191 @@ Atributos relacionados con la facilidad de extender, modificar, corregir errores
 #### **Módulo Busca Pacientes**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-button1_Click |
-BuscaPacientes_Load |
-button2_Click |
+button1_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+BuscaPacientes_Load | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+button2_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 
 #### **Módulo Consulta**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-llenacombobox |
-button3_Click |
-button4_Click |
-openConnection |
-closeConnection |
-executeMyQuery | 
-btRegistro_Click |
-btLimpiar_Click |
+llenacombobox | 24, 25, 26, 27, 28 |  24, 25, 26, 27, 28 | 24, 25, 26, 27, 28 | 24, 25, 26, 27, 28, 31
+button3_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+button4_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+closeConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo Login** 
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-button1_Click |
-btncerrar_Click |
-txtUsuario_Click |
+button1_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btncerrar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+txtUsuario_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo Menú**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-ocultaBotones |
-muestraBotones |
-button1_Click |
-button2_Click |
-btRU_Click |
-btRD_Click |
-btRP_Click |
-btRDueño_Click |
-btConsulta_Click |
-btVentas_Click |
-btCompra_Click |
-bloquear |
+ocultaBotones | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 26, 27, 28
+muestraBotones | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 26, 27, 28
+button1_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+button2_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btRU_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btRD_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btRP_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btRDueño_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btConsulta_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btVentas_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btCompra_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+bloquear | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 26, 27, 28
 
 #### **Módulo PantallaCitas**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-dataGridView1_MouseClick |
-llenacombobox |
-llenacombobox2 |
-PantallaCita_Load |
-openConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btEliminar_Click |
-btActualiza_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+llenacombobox | 24, 25, 26, 28 |  24, 25, 26, 28 | 24, 25, 26, 28 | 24, 25, 26, 28, 31
+llenacombobox2 | 24, 25, 26, 28 |  24, 25, 26, 28 | 24, 25, 26, 28 | 24, 25, 26, 28, 31
+PantallaCita_Load | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+MuestraTabla | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btEliminar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btActualiza_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo PantallaInicio**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-PantallaDeRegistros_Load |
-btUsuarios_Click |
+PantallaDeRegistros_Load | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+btUsuarios_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo PrimerControlDeUsuario**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-dataGridView1_MouseClick |
-PrimerControlDeUsuario_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-btRegistro_Click |
-button2_Click |
-button1_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+PrimerControlDeUsuario_Load | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+closeConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+button2_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+button1_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo Receta Medicamentos**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-llenacombobox |
-llenacombobox2 |
-openConnection |
-executeMyQuery |
-button1_Click |
+llenacombobox | 24, 25, 26, 28 |  24, 25, 26, 28 | 24, 25, 26, 28 | 24, 25, 26, 28, 31
+llenacombobox2 | 24, 25, 26, 28 |  24, 25, 26, 28 | 24, 25, 26, 28 | 24, 25, 26, 28, 31
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+button1_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo RegistroCompra**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-dataGridView1_MouseClick |
-llenacombobox |
-RegistroCompra_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+llenacombobox | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 26, 27, 28
+RegistroCompra_Load | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+closeConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+MuestraTabla | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btActualiza_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btEliminar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo RegistroDoctores**
-Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
-----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-RegistroDoctores_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+dataGridView1_MouseClick | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+RegistroDoctores_Load | 24, 26, 28 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 25, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+closeConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+MuestraTabla | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btActualiza_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btEliminar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo RegistroDueño**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-dataGridView1_MouseClick |
-RegistroDueño_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+RegistroDueño_Load | 24, 26, 28 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 25, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+closeConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+MuestraTabla | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btActualiza_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btEliminar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo RegistroPaciente**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-dataGridView1_MouseClick |
-RegistroPaciente_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+RegistroPaciente_Load | 24, 26, 28 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 25, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+closeConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+MuestraTabla | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btActualiza_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btEliminar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo RegistroProveedor**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-dataGridView1_MouseClick |
-RegistroProveedor_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+RegistroProveedor_Load | 24, 26, 28 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 25, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+closeConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+MuestraTabla | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btActualiza_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btEliminar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo RegistroVenta**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-dataGridView1_MouseClick |
-RegistroVenta_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+RegistroVenta_Load | 24, 26, 28 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 25, 26, 28
+openConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+closeConnection | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+executeMyQuery | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28
+MuestraTabla | 24, 25, 26, 28 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 27, 28, 31 | 24, 25, 26, 28
+btRegistro_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btActualiza_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btEliminar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+btLimpiar_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo VentanaCompra**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-button2_Click |
-button3_Click |
-button1_Click |
-VentanaCompra_Load |
-button4_Click |
+button2_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+button3_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+button1_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+VentanaCompra_Load | 24, 26, 28 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 25, 26, 28
+button4_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 #### **Módulo VentanaVenta**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
-button2_Click |
-button3_Click |
-button1_Click |
-VentanaVentas_Load |
-button4_Click |
+button2_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+button3_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+button1_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
+VentanaVentas_Load | 24, 26, 28 | 24, 26, 27, 28, 31 | 24, 26, 27, 28, 31 | 24, 25, 26, 28
+button4_Click | 24, 26, 31, 28 | 24, 26, 28, 31 | 24, 26, 28, 31 | 24, 26, 28
 
 ## Portabilidad
 Atributos relacionados con la capacidad de un sistema de software para ser transferido desde una plataforma a otra.
