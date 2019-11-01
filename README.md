@@ -408,7 +408,7 @@ Un conjunto de atributos que se relacionan con la existencia de un conjunto de f
 
 ## Tabla 3 Funcionalidad 
 
-###Modulo BuscaPacientes
+### Modulo BuscaPacientes
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
 button1_Click | 5,6|6,7,5|7|5
@@ -519,7 +519,71 @@ Conjunto de atributos relacionados en el nivel de desempeño del software y la c
 - **Comportamiento en el tiempo:** Se relaciona con los tiempos de respuesta, procesamiento y el rendimiento en desempeñar su función.
 - **Comportamiento de recursos:** Usar los controladores y tipos de recursos adecuados cuando el software lleva a cabo su función.
 
-## Tabla 6 Eficiencia
+### **Criterios para la evaluación del sistema**
+
+19. El usuario debe de saber para qué es cada interfaz 
+20. Tiempo justificado 
+21. Ejecución rápida 
+22. Utilización de pocos recursos del sistema 
+23. Visualización rápida de interfaces
+
+#### **Módulo Busca Pacientes**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo Consulta**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo Login** 
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo Menú**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo PantallaCitas**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo PantallaInicio**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo PrimerControlDeUsuario**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo Receta Medicamentos**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo Registro CompraRegistroDoctores**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo RegistroDueño**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo RegistroPaciente**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo RegistroProveedor**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo RegistroVenta**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo VentanaCompra**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+
+#### **Módulo VentanaVenta**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
 
@@ -531,7 +595,78 @@ Atributos relacionados con la facilidad de extender, modificar, corregir errores
 - **Facilidad de cambio:** Atributos del software relacionados con el esfuerzo necesario para la modificación, corrección de falla o cambio de ambiente.
 - **Facilidad de pruebas:** Atributos del software relacionados con el esfuerzo necesario para validar el software modificado.
 
-## Tabla 7 Mantenibilidad 
+### <b> Criterios para la evaluación del sistema</b>
+
+1.   Sencillo de probar una aplicación 
+2.   Nombres de variables comprensibles 
+3.   Documentación de funciones 
+4.   Sin redundancia de código 
+5.   Nombre de métodos de acuerdo a su función 
+6.   Cuenta con manual del programador 
+7.   Cuenta con documentación del sistema 
+8.   Corrección sencilla de errores
+
+#### **Módulo Busca Pacientes**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo Busca Pacientes**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo Consulta**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo Login** 
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo Menú**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo PantallaCitas**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo PantallaInicio**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo PrimerControlDeUsuario**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo Receta Medicamentos**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo Registro CompraRegistroDoctores**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo RegistroDueño**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo RegistroPaciente**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo RegistroProveedor**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo RegistroVenta**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo VentanaCompra**
+Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
+----------|-------------|-----------------------|-------------|-------|
+
+#### **Módulo VentanaVenta**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
 
@@ -543,6 +678,13 @@ Atributos relacionados con la capacidad de un sistema de software para ser trans
 - **Adaptabilidad:** Adaptación a # de ambientes.
 - **Co-existencia:** Coexistir con otro software independiente, en un entorno común compartiendo recursos comúnes.
 
-## Tabla 8 Portabilidad 
+### **Criterios para la evaluación del sistema**
+
+1. Es fácil de instalar
+2. El software se puede mover a través de una amplia gama de sistemas 
+3. El programa trabaja con otras aplicaciones en sistemas locales y remotos
+4. Cuenta con documentación de administrador del sistema
+
+#### Software VetZoo
 Funciones | Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-existencia
 ----------|--------------------------|-------------------------------|---------------|--------------
