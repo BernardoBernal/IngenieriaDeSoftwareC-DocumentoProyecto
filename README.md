@@ -399,17 +399,112 @@ Un conjunto de atributos que se relacionan con la existencia de un conjunto de f
 * Seguridad
     * Atributos de software relacionados con su habilidad para prevenir acceso no autorizado a programas y datos.
 
-### <b> Criterios para la evaluación del sistema</b>
->3. Autentificación. Identidad de Usuarios <br>   
->4. Autorización. Autentifica los usuarios y aplicaciones que tienen derechos definidos de acceso a los recursos del sistema.
->5. Algoritmo implementado de manera correcta.
->6. Funciona correctamente.
->7. Manejo adecuado de la base de datos. 
+#### <b> Criterios para la evaluación del sistema</b>
+3. Autentificación. Identidad de Usuarios <br>   
+4. Autorización. Autentifica los usuarios y aplicaciones que tienen derechos definidos de acceso a los recursos del sistema.
+5. Algoritmo implementado de manera correcta.
+6. Funciona correctamente.
+7. Manejo adecuado de la base de datos. 
 
 ## Tabla 3 Funcionalidad 
+
+###Modulo BuscaPacientes
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
-login |3,7 |6|5|4
+button1_Click | 5,6|6,7,5|7|5
+BuscaPacientes_Load | 6|5,6,7|7|5
+button2_Click | 5,6|5,6|7|7 
+
+#### Modulo Consulta
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+Consulta_Load | 6 | 6|5,6|6
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+button3_Click | 5 | 5 | 6| 5,6
+button4_Click | 5 | 5 | 6| 5,6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+btRegistro_Click|6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+
+#### Modulo Login
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+button1_Click|3,4,5,6,7|3,4,5,6,7|3,4,5,6,7|3,4,5,6,7
+btncerrar_Click | 6 | 6 | 6| 6
+btnmini_Click | 6 | 6 | 5,6 | 6
+txtContraseña_TextChanged |  6 | 6 | 5,6 | 6
+txtUsuario_Click |  6,5 | 5,6 | 5,6 | 6
+txtContraseña_Click |  6,5 | 6 | 5,6 | 6
+txtContraseña_Enter | 6 | 5,6 | 5,6 | 6
+Login_MouseDown | 6 | 6 | 5,6 | 6
+panel1_MouseDown | 6 | 5,6 | 5,6 | 6
+
+#### Modulo Menu
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+
+#### Modulo PantallaCitas
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+PantallaCitas_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
+
+
+#### Modulo PantallaInicio
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo PrimerControlDeUsuario
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo RecetaMedicamentos
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo RegistroCompra
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo RegistroDoctores
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo RegistroPaciente
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo RegistroProveedor
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo RegistroVenta
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo VentanaCompra
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+#### Modulo VentanaVentas
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|-------------------|----------
+
+
 ## Tabla 4 Fiabilidad 
 Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
 ----------|---------|-----------------|--------------------
