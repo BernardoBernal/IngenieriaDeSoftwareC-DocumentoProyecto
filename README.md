@@ -530,62 +530,190 @@ Conjunto de atributos relacionados en el nivel de desempeño del software y la c
 #### **Módulo Busca Pacientes**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+button1_Click |
+BuscaPacientes_Load |
+button2_Click |
 
 #### **Módulo Consulta**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+llenacombobox |
+button3_Click |
+button4_Click |
+openConnection |
+closeConnection |
+executeMyQuery | 
+btRegistro_Click |
+btLimpiar_Click |
 
 #### **Módulo Login** 
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+button1_Click |
+btncerrar_Click |
+txtUsuario_Click |
 
 #### **Módulo Menú**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+ocultaBotones |
+muestraBotones |
+button1_Click |
+button2_Click |
+btRU_Click |
+btRD_Click |
+btRP_Click |
+btRDueño_Click |
+btConsulta_Click |
+btVentas_Click |
+btCompra_Click |
+bloquear |
 
 #### **Módulo PantallaCitas**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+llenacombobox |
+llenacombobox2 |
+PantallaCita_Load |
+openConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btEliminar_Click |
+btActualiza_Click |
+btLimpiar_Click |
 
 #### **Módulo PantallaInicio**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+PantallaDeRegistros_Load |
+btUsuarios_Click |
 
 #### **Módulo PrimerControlDeUsuario**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+PrimerControlDeUsuario_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+btRegistro_Click |
+button2_Click |
+button1_Click |
+btLimpiar_Click |
 
-#### **Módulo Receta Medicamentos**
+#### **Módulo RecetaMedicamentos**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+llenacombobox |
+llenacombobox2 |
+openConnection |
+executeMyQuery |
+button1_Click |
 
-#### **Módulo Registro CompraRegistroDoctores**
+#### **Módulo RegistroCompra**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+llenacombobox |
+RegistroCompra_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
+
+#### **Módulo RegistroDoctores**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+RegistroDoctores_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo RegistroDueño**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+RegistroDueño_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo RegistroPaciente**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+RegistroPaciente_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo RegistroProveedor**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+RegistroProveedor_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo RegistroVenta**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+RegistroVenta_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo VentanaCompra**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+button2_Click |
+button3_Click |
+button1_Click |
+VentanaCompra_Load |
+button4_Click |
 
 #### **Módulo VentanaVenta**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
+button2_Click |
+button3_Click |
+button1_Click |
+VentanaVentas_Load |
+button4_Click |
 
 ## Mantenibilidad
 Atributos relacionados con la facilidad de extender, modificar, corregir errores en un sistema de software.
@@ -595,80 +723,205 @@ Atributos relacionados con la facilidad de extender, modificar, corregir errores
 - **Facilidad de cambio:** Atributos del software relacionados con el esfuerzo necesario para la modificación, corrección de falla o cambio de ambiente.
 - **Facilidad de pruebas:** Atributos del software relacionados con el esfuerzo necesario para validar el software modificado.
 
-### <b> Criterios para la evaluación del sistema</b>
+### **Criterios para la evaluación del sistema**
 
-1.   Sencillo de probar una aplicación 
-2.   Nombres de variables comprensibles 
-3.   Documentación de funciones 
-4.   Sin redundancia de código 
-5.   Nombre de métodos de acuerdo a su función 
-6.   Cuenta con manual del programador 
-7.   Cuenta con documentación del sistema 
-8.   Corrección sencilla de errores
-
-#### **Módulo Busca Pacientes**
-Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
-----------|-------------|-----------------------|-------------|-------|
+1.  Sencillo de probar una aplicación 
+2.  Nombres de variables comprensibles 
+3.  Documentación de funciones 
+4.  Sin redundancia de código 
+5.  Nombre de métodos de acuerdo a su función 
+6.  Cuenta con manual del programador 
+7.  Cuenta con documentación del sistema 
+8.  Corrección sencilla de errores
 
 #### **Módulo Busca Pacientes**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+button1_Click |
+BuscaPacientes_Load |
+button2_Click |
+
 
 #### **Módulo Consulta**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+llenacombobox |
+button3_Click |
+button4_Click |
+openConnection |
+closeConnection |
+executeMyQuery | 
+btRegistro_Click |
+btLimpiar_Click |
 
 #### **Módulo Login** 
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+button1_Click |
+btncerrar_Click |
+txtUsuario_Click |
 
 #### **Módulo Menú**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+ocultaBotones |
+muestraBotones |
+button1_Click |
+button2_Click |
+btRU_Click |
+btRD_Click |
+btRP_Click |
+btRDueño_Click |
+btConsulta_Click |
+btVentas_Click |
+btCompra_Click |
+bloquear |
 
 #### **Módulo PantallaCitas**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+dataGridView1_MouseClick |
+llenacombobox |
+llenacombobox2 |
+PantallaCita_Load |
+openConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btEliminar_Click |
+btActualiza_Click |
+btLimpiar_Click |
 
 #### **Módulo PantallaInicio**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+PantallaDeRegistros_Load |
+btUsuarios_Click |
 
 #### **Módulo PrimerControlDeUsuario**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+dataGridView1_MouseClick |
+PrimerControlDeUsuario_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+btRegistro_Click |
+button2_Click |
+button1_Click |
+btLimpiar_Click |
 
 #### **Módulo Receta Medicamentos**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+llenacombobox |
+llenacombobox2 |
+openConnection |
+executeMyQuery |
+button1_Click |
 
-#### **Módulo Registro CompraRegistroDoctores**
+#### **Módulo RegistroCompra**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+dataGridView1_MouseClick |
+llenacombobox |
+RegistroCompra_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
+
+#### **Módulo RegistroDoctores**
+Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
+----------|-----------------------------|------------------
+dataGridView1_MouseClick |
+RegistroDoctores_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo RegistroDueño**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+dataGridView1_MouseClick |
+RegistroDueño_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo RegistroPaciente**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+dataGridView1_MouseClick |
+RegistroPaciente_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo RegistroProveedor**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+dataGridView1_MouseClick |
+RegistroProveedor_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo RegistroVenta**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+dataGridView1_MouseClick |
+RegistroVenta_Load |
+openConnection |
+closeConnection |
+executeMyQuery |
+MuestraTabla |
+btRegistro_Click |
+btActualiza_Click |
+btEliminar_Click |
+btLimpiar_Click |
 
 #### **Módulo VentanaCompra**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+button2_Click |
+button3_Click |
+button1_Click |
+VentanaCompra_Load |
+button4_Click |
 
 #### **Módulo VentanaVenta**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
 ----------|-------------|-----------------------|-------------|-------|
+button2_Click |
+button3_Click |
+button1_Click |
+VentanaVentas_Load |
+button4_Click |
 
 ## Portabilidad
 Atributos relacionados con la capacidad de un sistema de software para ser transferido desde una plataforma a otra.
@@ -680,11 +933,12 @@ Atributos relacionados con la capacidad de un sistema de software para ser trans
 
 ### **Criterios para la evaluación del sistema**
 
-1. Es fácil de instalar
-2. El software se puede mover a través de una amplia gama de sistemas 
-3. El programa trabaja con otras aplicaciones en sistemas locales y remotos
-4. Cuenta con documentación de administrador del sistema
+1.  Es fácil de instalar
+2.  El software se puede mover a través de una amplia gama de sistemas 
+3.  El programa trabaja con otras aplicaciones en sistemas locales y remotos
+4.  Cuenta con documentación de administrador del sistema
 
 #### Software VetZoo
-Funciones | Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-existencia
+Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-existencia
 ----------|--------------------------|-------------------------------|---------------|--------------
+33, 34 | 32, 33, 34 | 32 | 32, 33, 34 
