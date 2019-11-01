@@ -521,199 +521,201 @@ Conjunto de atributos relacionados en el nivel de desempeño del software y la c
 
 ### **Criterios para la evaluación del sistema**
 
-19. El usuario debe de saber para qué es cada interfaz 
-20. Tiempo justificado 
-21. Ejecución rápida 
-22. Utilización de pocos recursos del sistema 
-23. Visualización rápida de interfaces
+# | Criterio
+-|----------
+19 | El usuario debe de saber para qué es cada interfaz
+20 | Tiempo justificado 
+21 | Ejecución rápida 
+22 | Utilización de pocos recursos del sistema
+23 | Visualización rápida de interfaces
 
 #### **Módulo Busca Pacientes**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-button1_Click |
-BuscaPacientes_Load |
-button2_Click |
+button1_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+BuscaPacientes_Load | 20, 21, 22, 23 | 20, 21, 22, 23
+button2_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo Consulta**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-llenacombobox |
-button3_Click |
-button4_Click |
-openConnection |
-closeConnection |
-executeMyQuery | 
-btRegistro_Click |
-btLimpiar_Click |
+llenacombobox | 20, 21, 22, 23 |  20, 21, 22, 23
+button3_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+button4_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+closeConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo Login** 
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-button1_Click |
-btncerrar_Click |
-txtUsuario_Click |
+button1_Click | 20, 21, 22, 23 |  20, 21, 22, 23
+btncerrar_Click | 20, 21, 22, 23 |  20, 21, 22, 23
+txtUsuario_Click | 20, 21, 22, 23 |  20, 21, 22, 23
 
 #### **Módulo Menú**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-ocultaBotones |
-muestraBotones |
-button1_Click |
-button2_Click |
-btRU_Click |
-btRD_Click |
-btRP_Click |
-btRDueño_Click |
-btConsulta_Click |
-btVentas_Click |
-btCompra_Click |
-bloquear |
+ocultaBotones | 20, 21, 22, 23 |  20, 21, 22, 23
+muestraBotones | 20, 21, 22, 23 |  20, 21, 22, 23
+button1_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+button2_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btRU_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btRD_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btRP_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btRDueño_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btConsulta_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btVentas_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btCompra_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+bloquear | 20, 21, 22, 23 |  20, 21, 22, 23
 
 #### **Módulo PantallaCitas**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-llenacombobox |
-llenacombobox2 |
-PantallaCita_Load |
-openConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btEliminar_Click |
-btActualiza_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+llenacombobox | 20, 21, 22, 23 |  20, 21, 22, 23
+llenacombobox2 | 20, 21, 22, 23 |  20, 21, 22, 23
+PantallaCita_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+MuestraTabla | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btEliminar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btActualiza_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo PantallaInicio**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-PantallaDeRegistros_Load |
-btUsuarios_Click |
+PantallaDeRegistros_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+btUsuarios_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo PrimerControlDeUsuario**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-PrimerControlDeUsuario_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-btRegistro_Click |
-button2_Click |
-button1_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 20, 21, 22, 23 |  20, 21, 22, 23
+PrimerControlDeUsuario_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+closeConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+button2_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+button1_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo RecetaMedicamentos**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-llenacombobox |
-llenacombobox2 |
-openConnection |
-executeMyQuery |
-button1_Click |
+llenacombobox | 20, 21, 22, 23 |  20, 21, 22, 23
+llenacombobox2 | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+button1_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo RegistroCompra**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-llenacombobox |
-RegistroCompra_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 20, 21, 22, 23 |  20, 21, 22, 23
+llenacombobox | 20, 21, 22, 23 |  20, 21, 22, 23
+RegistroCompra_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+closeConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+MuestraTabla | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btActualiza_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btEliminar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo RegistroDoctores**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-RegistroDoctores_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 20, 21, 22, 23 |  20, 21, 22, 23
+RegistroDoctores_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+closeConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+MuestraTabla | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btActualiza_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btEliminar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo RegistroDueño**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-RegistroDueño_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 20, 21, 22, 23 |  20, 21, 22, 23
+RegistroDueño_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+closeConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+MuestraTabla | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btActualiza_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btEliminar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo RegistroPaciente**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-RegistroPaciente_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 20, 21, 22, 23 |  20, 21, 22, 23
+RegistroPaciente_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+closeConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+MuestraTabla | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btActualiza_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btEliminar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo RegistroProveedor**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-RegistroProveedor_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
+dataGridView1_MouseClick | 20, 21, 22, 23 |  20, 21, 22, 23
+RegistroProveedor_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+closeConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+MuestraTabla | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btActualiza_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btEliminar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo RegistroVenta**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-dataGridView1_MouseClick |
-RegistroVenta_Load |
-openConnection |
-closeConnection |
-executeMyQuery |
-MuestraTabla |
-btRegistro_Click |
-btActualiza_Click |
-btEliminar_Click |
-btLimpiar_Click |
-
+dataGridView1_MouseClick | 20, 21, 22, 23 |  20, 21, 22, 23
+RegistroVenta_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+openConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+closeConnection | 20, 21, 22, 23 |  20, 21, 22, 23
+executeMyQuery | 20, 21, 22, 23 |  20, 21, 22, 23
+MuestraTabla | 20, 21, 22, 23 |  20, 21, 22, 23
+btRegistro_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btActualiza_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btEliminar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+btLimpiar_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+ 
 #### **Módulo VentanaCompra**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-button2_Click |
-button3_Click |
-button1_Click |
-VentanaCompra_Load |
-button4_Click |
+button2_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+button3_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+button1_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+VentanaCompra_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+button4_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 #### **Módulo VentanaVenta**
 Funciones | Comportamiento en el tiempo | Comportamiento de Recursos
 ----------|-----------------------------|------------------
-button2_Click |
-button3_Click |
-button1_Click |
-VentanaVentas_Load |
-button4_Click |
+button2_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+button3_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+button1_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
+VentanaVentas_Load | 20, 21, 22, 23 |  20, 21, 22, 23
+button4_Click | 19, 20, 21, 22, 23 | 19, 20, 21, 22, 23
 
 ## Mantenibilidad
 Atributos relacionados con la facilidad de extender, modificar, corregir errores en un sistema de software.
@@ -725,14 +727,17 @@ Atributos relacionados con la facilidad de extender, modificar, corregir errores
 
 ### **Criterios para la evaluación del sistema**
 
-1.  Sencillo de probar una aplicación 
-2.  Nombres de variables comprensibles 
-3.  Documentación de funciones 
-4.  Sin redundancia de código 
-5.  Nombre de métodos de acuerdo a su función 
-6.  Cuenta con manual del programador 
-7.  Cuenta con documentación del sistema 
-8.  Corrección sencilla de errores
+# | Criterio
+-|----------
+24 | Sencillo de probar una aplicación 
+25 | Nombres de variables comprensibles 
+26 | Documentación de funciones
+27 | Sin redundancia de código
+28 | Nombre de métodos de acuerdo a su función 
+29 | Cuenta con manual del programador 
+30 | Cuenta con documentación del sistema 
+31 | Corrección sencilla de errores
+
 
 #### **Módulo Busca Pacientes**
 Funciones | Estabilidad | Facilidad de análisis | Facilidad de cambio | Facilidad de prueba
@@ -933,10 +938,12 @@ Atributos relacionados con la capacidad de un sistema de software para ser trans
 
 ### **Criterios para la evaluación del sistema**
 
-1.  Es fácil de instalar
-2.  El software se puede mover a través de una amplia gama de sistemas 
-3.  El programa trabaja con otras aplicaciones en sistemas locales y remotos
-4.  Cuenta con documentación de administrador del sistema
+# | Criterio
+- | --------
+32 | Es fácil de instalar
+33 | El software se puede mover a través de una amplia gama de sistemas
+34 | El programa trabaja con otras aplicaciones en sistemas locales y remotos
+35 | Cuenta con documentación de administrador del sistema 
 
 #### Software VetZoo
 Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-existencia
