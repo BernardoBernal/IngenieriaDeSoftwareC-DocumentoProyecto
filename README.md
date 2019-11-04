@@ -467,51 +467,419 @@ btActualiza_Click|4,6| 6,7|6|7
 #### Modulo PantallaInicio
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
-
+PantallaDeRegistros_Load | N/A| N/A|N/A|N/A
+btUsuarios_Click|N/A| N/A|N/A|N/A
 #### Modulo PrimerControlDeUsuario
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+PrimerControlDeUsuario_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
+
 
 #### Modulo RecetaMedicamentos
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+RecetaMedicamentos_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
 
 #### Modulo RegistroCompra
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+RegistroCompra_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
 
 #### Modulo RegistroDoctores
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+RegistroDoctores_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
+#### Modulo RegistroDueño
+Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
+----------|------------|-----------|
+-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+RegistroDueño_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
 
 #### Modulo RegistroPaciente
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+RegistroPaciente_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
+
 
 #### Modulo RegistroProveedor
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+RegistroProveedor_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
 
 #### Modulo RegistroVenta
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+dataGridView1_MouseClick | 
+llenacombobox | 5,6 | 5 | 6| 5,7
+llenacombobox2| 5,6 | 5 | 6| 5,7
+RegistroVenta_Load|6 | 6|5,6|6
+openConnection|5,6,7 | 6,7|6|6,7
+closeConnection|5,6,7 | 6,7|6|6,7
+executeMyQuery | 4,5,6|4,5|6|5,6,7
+MuestraTabla | 6 | 6|5,6|6
+btRegistro_Click|4,6| 6,7|6|7
+btLimpiar_Click|5,6| 5,6 | 6|5
+btEliminar_Click |4,6| 6,7|6|7
+btActualiza_Click|4,6| 6,7|6|7
 
 #### Modulo VentanaCompra
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+button2_Click | 6 | 6 | 6| 6
+button3_Click |6 | 6 | 6| 6
+button1_Click |6 | 5,6 | 6| 6,7
+VentanaCompra_Load |6 | 5,6 | 6| 6,7
+button4_Click | 6 | 5,6 | 5,6| 6,7
 
 #### Modulo VentanaVentas
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
+button2_Click | 6 | 6 | 6| 5,6
+button3_Click |6 | 6 | 6| 5,6
+button1_Click |6 | 5,6 | 6| 5,6,7
+VentanaVentas_Load |6 | 5,6 | 6| 6,7
+button4_Click | 6 | 5,6 | 5,6| 6,7
 
+
+## Fiabilidad
+Conjunto de atributos relacionados con la capacidad del Software de mantener su nivel de presentación durante un periodo establecido.
+
+- **Madurez:** Atributos del Software que se relacionan con la frecuencia de fallas en el software.
+- **Recuperabilidad:** Atributos del software que se relacionan con la capacidad para restablecer su nivel de desempeño y recuperar los datos.
+-  **Tolerancia a Fallos:** Habilidad para mantener un nivel especificado o de una operación a su interfaz especficada. 
+
+
+### **Criterios para la evaluación del sistema**
+
+'#' | Criterio
+-|----------
+8 | Tolerancia a fallas
+9 | Respaldo a la información automáticamente cada cierto tiempo
+10| Recuperación de la información
+11| Solo permite valores válidos
+12| Manejo de excepciones
 
 ## Tabla 4 Fiabilidad 
+
+### Modulo BuscaPacientes
 Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
 ----------|---------|-----------------|--------------------
+button1_Click | N/A | 11|8
+BuscaPacientes_Load |N/A | 11|8
+button2_Click |N/A | 11|8
+
+
+### Modulo Consulta
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+llenacombobox | 10, 11 | 10, 11 | 11
+llenacombobox2| 10, 11 | 10, 11 | 11 
+button3_Click | N/A | N/A | N/A
+button4_Click | N/A | N/A | N/A
+openConnection|8 |  8 | 8
+closeConnection| 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btLimpiar_Click | N/A | N/A | N/A
+
+### Modulo Login
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+button1_Click | 8, 10 | 10 | 8, 11, 12
+btncerrar_Click |N/A | N/A | N/A
+btnmini_Click | N/A | N/A | N/A
+txtContraseña_TextChanged |N/A | N/A | N/A
+txtUsuario_Click |N/A | N/A | N/A
+txtContraseña_Click |N/A | N/A | N/A
+txtContraseña_Enter |N/A | N/A | N/A
+Login_MouseDown | N/A | N/A | N/A
+panel1_MouseDown | N/A | N/A | N/A
+### Modulo Menu
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+button2_Click | 8,11,12 | 12 | 8
+bloquear | 8,11,12 | 12 | 8,11
+
+### Modulo PantallaCitas
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+PantallaCitas_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+### Modulo PantallaInicio
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+PantallaDeRegistros_Load | N/A | N/A | N/A
+btUsuarios_Click |N/A | N/A | N/A
+
+### Modulo PrimerControlDeUsuario
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+PrimerControlDeUsuario_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+
+
+### Modulo RecetaMedicamentos
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+RecetaMedicamentos_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+### Modulo RegistroCompra
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+RegistroCompra_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+
+### Modulo RegistroDoctores
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+RegistroDoctores_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+
+
+### Modulo RegistroDueño
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+RegistroDueño_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+### Modulo RegistroPaciente
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+RegistroPaciente_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+### Modulo RegistroProveedor
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+RegistroProveedor_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+### Modulo RegistroVenta
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+dataGridView1_MouseClick | 10 | 10 | 10
+llenacombobox |8,11,12 | 8 | 8,11
+llenacombobox2 |8,11,12 | 8 | 8,11
+RegistroVenta_Load | 10 | 10,11 | 10
+openConnection | 8 |  8 | 8
+closeConnection | 8 |  8 | 8
+executeMyQuery | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+MuestraTabla | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+btRegistro_Click |11 | 11 | 11
+btEliminar_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btActualiza_Click |8, 11, 12 | 8, 11, 12| 8, 11, 12
+btLimpiar_Click | n/a | n/a | n/a
+### Modulo VentanaCompra
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+button2_Click |  n/a | n/a | n/a
+button3_Click | n/a | n/a | n/a
+button1_Click | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+VentanaCompra_Load | 10,11 | 10,11| 11
+button4_Click | 10,11 | 11| 10,11
+### Modulo VentanaVenta
+Funciones | Madurez | Recuperabilidad | Tolerancia a Fallos
+----------|---------|-----------------|--------------------
+button2_Click |  n/a | n/a | n/a
+button3_Click | n/a | n/a | n/a
+button1_Click | 8, 11, 12 | 8, 11, 12| 8, 11, 12
+VentanaVenta_Load | 10,11 | 10,11| 11
+button4_Click | 10,11 | 11| 10,11
+
+
+## Usabilidad
+Conjunto de atributos relacionados con el esfuerzo necesario para su uso y en la valoración individual de tal uso, por los usuarios
+
+- **Aprendizaje:** Se relacionan al esfuerzo de los usuarios para reconocer el concepto lógico y sus aplicaciones.
+- **Comprensión:** Se relacionan al esfuerzo de los usuarios  para reconocer el concepto lógico y su comprensión.
+-  **Operatividad:** Se relacionan con el esfuerzo de los usuarios para la operación y control del software. 
+
+
+### **Criterios para la evaluación del sistema**
+
+'#' | Criterio
+-|----------
+13 | Fácil navegación entre las interfaces del usuario
+14 | Que el usuario se pueda familiarizar fácilmente con el sistema
+15 | Información comprensible por el usuario
+16 | Diseño coherente de todas las interfaces.
+17 | Cuenta con manual de usuario
+18 | Diseño atractivo visualmente
+
 
 ## Tabla 5 Usabilidad 
-Funciones | Aprendizaje | Comprensión | Operatividad
+Modulo | Aprendizaje | Comprensión | Operatividad
 ----------|-------------|-------------|-------------
+Busca Pacientes |
+Consulta |
+Login |
+Menú |
+PantallaCitas |
+PantallaInicio |
+PrimerControlDeUsuario |
+Receta Medicamentos |
+Registro Compra |
+RegistroDoctores |
+RegistroDueño | 
+RegistroPaciente |
+RegistroProveedor |
+RegistroVenta | 
+VentanaCompra |
+VentanaVenta |
 
 ## Eficiencia
 Conjunto de atributos relacionados en el nivel de desempeño del software y la cantidad de recursos necesarios.
