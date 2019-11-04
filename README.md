@@ -863,22 +863,22 @@ Conjunto de atributos relacionados con el esfuerzo necesario para su uso y en la
 ## Tabla 5 Usabilidad 
 Modulo | Aprendizaje | Comprensión | Operatividad
 ----------|-------------|-------------|-------------
-Busca Pacientes |
-Consulta |
-Login |
-Menú |
-PantallaCitas |
-PantallaInicio |
-PrimerControlDeUsuario |
-Receta Medicamentos |
-Registro Compra |
-RegistroDoctores |
-RegistroDueño | 
-RegistroPaciente |
-RegistroProveedor |
-RegistroVenta | 
-VentanaCompra |
-VentanaVenta |
+Busca Pacientes |13,14,17,18 | 13,15, 18 | 13,16,17
+Consulta |13 ,17,18 | 15, 18 | 13,16
+Login |13,14,15,17 |13,14,15,17 | 13,14,15,17 
+Menú |13 ,17,18 | 15, 18 | 13,16
+PantallaCitas |13 ,17,18 | 15, 18 | 13,16
+PantallaInicio | N/A | N/A | N/A
+PrimerControlDeUsuario |13 ,17,18 | 15, 18 | 13,16
+Receta Medicamentos |13 ,17,18 | 15, 18 | 13,16
+Registro Compra |13 ,17,18 | 15, 18 | 13,16
+RegistroDoctores |13 ,17,18 | 15, 18 | 13,16
+RegistroDueño | 13 ,17,18 | 15, 18 | 13,16
+RegistroPaciente |13 ,17,18 | 15, 18 | 13,16
+RegistroProveedor |13 ,17,18 | 15, 18 | 13,16
+RegistroVenta | 13 ,17,18 | 15, 18 | 13,16
+VentanaCompra |13,14 ,17,18 | 14,15, 18 | 13,14,16
+VentanaVenta |13,14 ,17,18 | 14,15, 18 | 13,14,16
 
 ## Eficiencia
 Conjunto de atributos relacionados en el nivel de desempeño del software y la cantidad de recursos necesarios.
