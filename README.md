@@ -450,7 +450,7 @@ Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 #### Modulo PantallaCitas
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
-dataGridView1_MouseClick | 
+dataGridView1_MouseClick |4,5,6|4,5|6|5,6,7
 llenacombobox | 5,6 | 5 | 6| 5,7
 llenacombobox2| 5,6 | 5 | 6| 5,7
 PantallaCitas_Load|6 | 6|5,6|6
@@ -472,7 +472,7 @@ btUsuarios_Click|N/A| N/A|N/A|N/A
 #### Modulo PrimerControlDeUsuario
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
-dataGridView1_MouseClick | 
+dataGridView1_MouseClick | 4,5,6|4,5|6|5,6,7
 llenacombobox | 5,6 | 5 | 6| 5,7
 llenacombobox2| 5,6 | 5 | 6| 5,7
 PrimerControlDeUsuario_Load|6 | 6|5,6|6
@@ -489,7 +489,7 @@ btActualiza_Click|4,6| 6,7|6|7
 #### Modulo RecetaMedicamentos
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
-dataGridView1_MouseClick | 
+dataGridView1_MouseClick | 4,5,6|4,5|6|5,6,7
 llenacombobox | 5,6 | 5 | 6| 5,7
 llenacombobox2| 5,6 | 5 | 6| 5,7
 RecetaMedicamentos_Load|6 | 6|5,6|6
@@ -505,7 +505,7 @@ btActualiza_Click|4,6| 6,7|6|7
 #### Modulo RegistroCompra
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
-dataGridView1_MouseClick | 
+dataGridView1_MouseClick | 4,5,6|4,5|6|5,6,7
 llenacombobox | 5,6 | 5 | 6| 5,7
 llenacombobox2| 5,6 | 5 | 6| 5,7
 RegistroCompra_Load|6 | 6|5,6|6
@@ -521,7 +521,7 @@ btActualiza_Click|4,6| 6,7|6|7
 #### Modulo RegistroDoctores
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
 ----------|------------|-----------|-------------------|----------
-dataGridView1_MouseClick | 
+dataGridView1_MouseClick | 4,5,6|4,5|6|5,6,7
 llenacombobox | 5,6 | 5 | 6| 5,7
 llenacombobox2| 5,6 | 5 | 6| 5,7
 RegistroDoctores_Load|6 | 6|5,6|6
@@ -535,8 +535,7 @@ btEliminar_Click |4,6| 6,7|6|7
 btActualiza_Click|4,6| 6,7|6|7
 #### Modulo RegistroDueño
 Funciones | Adecuación | Exactitud | Interoperatividad | Seguridad
-----------|------------|-----------|
--------------------|----------
+----------|------------|-----------|-------------------|----------
 dataGridView1_MouseClick | 
 llenacombobox | 5,6 | 5 | 6| 5,7
 llenacombobox2| 5,6 | 5 | 6| 5,7
