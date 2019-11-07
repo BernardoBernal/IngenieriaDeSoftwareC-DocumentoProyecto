@@ -1331,6 +1331,15 @@ Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-e
 ----------|--------------------------|-------------------------------|---------------|--------------
 33, 34 | 32, 33, 34 | 32 | 32, 33, 34 
 
+#### Tabla de defetos
+Numero | Tipo | Introducción| Eliminado | Tiempo de corrección | Defecto corregido
+-------|------|-----------------------|-----------|----------------------|-----------------|
+1 | |No se valida que los campos sean llenados antes de enviar||
+2 | |En caso de no generar la consulta no se notifica que no se encontro | |
+3 | |Validación de tipo de dato acorde al campo ||
+4 | |Validación al eliminar un registro ||
+
+
 ## Conclusiones 
 El proceso de calidad de software es muy importante para un correcto desarrollo de software, el hecho de que un proyecto de software cuente con un certificado internacional de calidad habla del interés por lograr cumplir los objetivos que este tiene asignados.
 
