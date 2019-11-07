@@ -1,18 +1,32 @@
 # **Proyecto Ingeniería de Software C** 
 
 ## **Introducción**
-> VetZoo es un sistema de información enfocado a pequeñas veterinarias que buscan optimizar sus procesos administrativos. 
-> 
-> Es natural que dentro del desarrollo de software se busque la calidad total, por lo que es necesaria de implementación de un modelo de calidad que ayude a obtenerla. 
-> 
+VetZoo es un sistema de información enfocado a pequeñas veterinarias que buscan optimizar sus procesos administrativos. 
+
+Es natural que dentro del desarrollo de software se busque la calidad total, por lo que es necesaria la implementación 
+de un modelo de calidad que ayude a obtenerla. 
+
+El modelo de calidad aplicado al siguiente proyecto de software es el ISO/IEC 9126 el cual es un estándar internacional para la evaluación del software que surge debido
+a la necesidad de un modelo único para expresar la calidad de un software.
 
 ## **Objetivos**
 
 ### **Objetivo General**
 
-> Herramienta digital que permite automatizar y administrar el proceso que tienen las veterinarias facilitando al usuario su actividad laboral.
+> Herramienta digital que permite automatizar y administrar el proceso que tienen las veterinarias facilitando al usuario su actividad laboral. Mediante el registro y guardado de información de los pacientes, su historial y medicamentos usados, además de tener un mejor control de los medicamentos en la bodega.
 
 ### **Objetivos Específicos**
+
+- Administración de información de:
+  - Médicos Veterinarios 
+  - Pacientes
+  - Consultas 
+  - Medicamentos 
+   
+- La Veterinaria se beneficiará realizando un aprovechamiento eficiente de recursos. 
+- Generación automática de reportes tales como recetas, inventarios de medicamentos, etc. 
+- Ahorro de tiempo y espacio de almacenamiento de reportes.
+- Se tendrá un menor tamaño de inventarios de medicamentos susceptibles de caducidad próxima. 
 
 ## **Módulos del proyecto**
 
@@ -400,11 +414,11 @@ Un conjunto de atributos que se relacionan con la existencia de un conjunto de f
     * Atributos de software relacionados con su habilidad para prevenir acceso no autorizado a programas y datos.
 
 #### <b> Criterios para la evaluación del sistema</b>
-3. Autentificación. Identidad de Usuarios <br>   
-4. Autorización. Autentifica los usuarios y aplicaciones que tienen derechos definidos de acceso a los recursos del sistema.
-5. Algoritmo implementado de manera correcta.
-6. Funciona correctamente.
-7. Manejo adecuado de la base de datos. 
+1. Autentificación. Identidad de Usuarios <br>   
+2. Autorización. Autentifica los usuarios y aplicaciones que tienen derechos definidos de acceso a los recursos del sistema.
+3. Algoritmo implementado de manera correcta.
+4. Funciona correctamente.
+5. Manejo adecuado de la base de datos. 
 
 ## Tabla 3 Funcionalidad 
 
@@ -1316,3 +1330,13 @@ Atributos relacionados con la capacidad de un sistema de software para ser trans
 Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-existencia
 ----------|--------------------------|-------------------------------|---------------|--------------
 33, 34 | 32, 33, 34 | 32 | 32, 33, 34 
+
+## Conclusiones 
+El proceso de calidad de software es muy importante para un correcto desarrollo de software, el hecho de que un proyecto de software cuente con un certificado internacional de calidad habla del interés por lograr cumplir los objetivos que este tiene asignados.
+
+Durante el desarrollo de la evaluación logramos evaluar la calidad de un proyecto de software aprendiendo los principios básicos del estándar ISO 9126 no se trata de alcanzar una calidad perfecta, sino la necesario para cada contexto de uso y del uso del software por parte de los usuarios.
+
+También una de las cosas aprendidas fue a evaluar nuestros proyectos de software durante el desarrollo, de está forma podemos alcanzar la calidad en una fase temprana de software y no cuando este ya es entregado al cliente.
+
+## Referencias
+1. lecasabe CAPACITACIÓN PRÁCTICA. 2019. ¿Qué es la norma ISO 9126?. Recuperado de http://lecasabe.com/que-es-la-norma-iso-9126/
