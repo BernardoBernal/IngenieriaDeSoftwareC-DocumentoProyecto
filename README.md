@@ -1331,13 +1331,19 @@ Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-e
 ----------|--------------------------|-------------------------------|---------------|--------------
 33, 34 | 32, 33, 34 | 32 | 32, 33, 34 
 
+#### Tipo de defectos
+Tipo| 10 | 20 | 30 | 40 | 50 | 60 |70 |80 |90 |100
+--------|----------|----------------------------------|------------|---------|--------------|-------|---------|---------|---|---|
+Defecto | Defectos| Sintaxis | Construcción de Paquete de Datos | Asignación | Interfaz| Comprobación | Datos | Función | Sistema | Entorno
+
+
 #### Tabla de defetos
 Numero | Tipo | Introducción| Eliminado | Tiempo de corrección | Defecto corregido
 -------|------|-----------------------|-----------|----------------------|-----------------|
-1 | |No se valida que los campos sean llenados antes de enviar||
-2 | |En caso de no generar la consulta no se notifica que no se encontro | |
-3 | |Validación de tipo de dato acorde al campo ||
-4 | |Validación al eliminar un registro ||
+1 | 30|No se valida que los campos sean llenados antes de enviar|45 min|NO
+2 | 70|En caso de no generar la consulta no se notifica que no se encontro |5 min |NO
+3 | 40|Validación de tipo de dato acorde al campo |15|NO
+4 | 60|Validación al eliminar un registro |10|NO
 
 
 ## Conclusiones 
