@@ -1340,10 +1340,10 @@ Defecto | Defectos| Sintaxis | Construcción de Paquete de Datos | Asignación |
 #### Tabla de defetos
 Numero | Tipo | Introducción| Eliminado | Tiempo de corrección | Defecto corregido
 -------|------|-----------------------|-----------|----------------------|-----------------|
-1 | 30|No se valida que los campos sean llenados antes de enviar|45 min|NO
-2 | 70|En caso de no generar la consulta no se notifica que no se encontro |5 min |NO
-3 | 40|Validación de tipo de dato acorde al campo |15|NO
-4 | 60|Validación al eliminar un registro |10|NO
+1 | 30|No se valida que los campos sean llenados antes de enviar|NO|45 min|NO
+2 | 70|En caso de no generar la consulta no se notifica que no se encontro |NO|5 min |SI
+3 | 40|Validación de tipo de dato acorde al campo |NO|15 min|NO
+4 | 60|Validación al eliminar un registro |NO|10 min|NO
 
 
 ## Conclusiones 
