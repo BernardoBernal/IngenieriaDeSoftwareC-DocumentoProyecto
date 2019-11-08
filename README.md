@@ -1328,7 +1328,7 @@ Atributos relacionados con la capacidad de un sistema de software para ser trans
 
 #### Software VetZoo
 Capacidad de instalación | Capacidad de re-emplazamiento | Adaptabilidad | Co-existencia
-----------|--------------------------|-------------------------------|---------------|--------------
+-------------------------|-------------------------------|------------ --|---------------
 33, 34 | 32, 33, 34 | 32 | 32, 33, 34 
 
 #### Tipo de defectos
@@ -1337,7 +1337,7 @@ Tipo| 10 | 20 | 30 | 40 | 50 | 60 |70 |80 |90 |100
 Defecto | Defectos| Sintaxis | Construcción de Paquete de Datos | Asignación | Interfaz| Comprobación | Datos | Función | Sistema | Entorno
 
 
-#### Tabla de defetos
+#### Tabla de decfetos
 Numero | Tipo | Introducción| Eliminado | Tiempo de corrección | Defecto corregido
 -------|------|-----------------------|-----------|----------------------|-----------------|
 1 | 30|No se valida que los campos sean llenados antes de enviar|NO|45 min|NO
