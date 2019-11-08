@@ -1320,7 +1320,7 @@ Atributos relacionados con la capacidad de un sistema de software para ser trans
 ### **Criterios para la evaluación del sistema**
 
 '#' | Criterio
-- | --------
+----| --------
 32 | Es fácil de instalar
 33 | El software se puede mover a través de una amplia gama de sistemas
 34 | El programa trabaja con otras aplicaciones en sistemas locales y remotos
